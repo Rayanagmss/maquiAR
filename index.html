@@ -7,7 +7,6 @@
     <title>Maquiar</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="theme-color" content="#FB6F92">
-    
 </head>
 
 <body>
@@ -20,8 +19,14 @@
     </div>
 
     <form id="form">
-        <input type="text" class="inputs" placeholder="E-mail ou usuário">
-        <input type="password" class="inputs" placeholder="Senha">
+        <div class="input-container">
+            <input type="text" class="inputs" id="usuario" required>
+            <label for="usuario">E-mail ou usuário</label>
+        </div>
+        <div class="input-container">
+            <input type="password" class="inputs" id="senha" required>
+            <label for="senha">Senha</label>
+        </div>
     </form>
 
     <nav class="nav-icones">
@@ -41,8 +46,6 @@
         <p>Não tem uma conta?</p>
         <a href="">Cadastre-se</a>
     </footer>
-
-
 
 </body>
 
