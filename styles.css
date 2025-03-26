@@ -1,29 +1,27 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-   background-color: white;
-   overflow: hidden;
+body {
+    background-color: white;
+    overflow: hidden;
 }
 
-header{
+header {
     background-color: #FB6F92;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-header img{
+header img {
     width: 5.5rem;
 }
 
-#pag-inicial{
+#pag-inicial {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,13 +29,13 @@ header img{
     padding: 4rem;
 }
 
-#pag-inicial img{
+#pag-inicial img {
     width: 4.125rem;
     height: 4.25rem;
 }
 
 
-#pag-inicial h1{
+#pag-inicial h1 {
     padding-top: 0.7rem;
     color: #FB6F92;
     font-size: 1.7rem;
@@ -45,7 +43,7 @@ header img{
     text-align: center;
 }
 
-#form{
+#form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +51,7 @@ header img{
     gap: 1rem;
 }
 
-.inputs{
+.inputs {
     width: 85%;
     height: 5vh;
     border-width: 1px;
@@ -61,13 +59,13 @@ header img{
     padding: 10px;
 }
 
-.inputs:focus{
+.inputs:focus {
     outline: none;
     border-color: #FB6F92;
 }
 
 
-.icones{
+.icones {
     padding-top: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -75,18 +73,18 @@ header img{
     width: 70%;
 }
 
-.icones img{
+.icones img {
     width: 2.313rem;
     height: 2.313rem;
 }
 
-.nav-icones{
+.nav-icones {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#login{
+#login {
     padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -94,7 +92,7 @@ header img{
     gap: 0.7rem;
 }
 
-#login button{
+#login button {
     width: 20rem;
     padding: 0.75rem;
     border-radius: 1.3rem;
@@ -105,14 +103,14 @@ header img{
     font-size: 14px;
 }
 
-#login a{
+#login a {
     text-decoration: none;
     color: #808080;
     font-weight: bolder;
     font-size: 14px;
 }
 
-#footer{
+#footer {
     padding-top: 7rem;
     display: flex;
     flex-direction: row;
@@ -122,11 +120,7 @@ header img{
     color: #FB6F92;
 }
 
-#footer a{
+#footer a {
     text-decoration: none;
     color: #3296F1;
 }
-
-
-
-
