@@ -5,19 +5,21 @@
 
 body{
    background-color: white;
+   border: solid red;
 }
 
 header{
     background-color: #FB6F92;
     display: flex;
     justify-content: center;
-    width: 100%;
     height: 55px;
+    border: solid rgb(38, 4, 45);
 }
 
 header img{
     width: 88px;
     height: 55px;
+    border: solid rgb(9, 225, 167);
 }
 
 #pag-inicial{
@@ -26,11 +28,13 @@ header img{
     justify-content: center;
     align-items: center;
     padding: 30px;
+    border: solid rgb(225, 204, 12);
 }
 
 #pag-inicial img{
     width: 66px;
     height: 68px;
+    border: solid rgb(10, 202, 106);
 }
 
 #pag-inicial h1{
@@ -39,32 +43,19 @@ header img{
     font-weight: bold;
     width: 18rem;
     text-align: center;
+    border: solid rgb(12, 60, 190);
 }
 
 #form{
     border: solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
 }
 
-.fieldset{
-    border: solid;
-    border-width: thin;
-    width: 19rem;
-
-
-}
 .inputs{
     width: 100%;
     height: 100%;
-    border: none;
 }
 
-.inputs:focus{
-    outline: none;
-    border: none;
-}
 
 .icones{
 
