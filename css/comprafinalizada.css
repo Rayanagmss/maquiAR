@@ -8,5 +8,30 @@ body{
 }
 
 .container{
-    background-color:#FB6F92 ;
+    background-color:#FB6F92;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+#filtro{
+    width: 62px;
+}
+
+.itens{
+    width: 30.89px;
 }
