@@ -5,7 +5,7 @@
 
 body{
     background-color: white;
-    
+    overflow: hidden;
 }
 
 .container{
@@ -17,8 +17,8 @@ body{
     text-align: center;
     color: white;
     font-weight: bold;
+    height: 450px;
     height: 90vh;
-    width: 100%;
     gap: 1.5rem;
 }
 #h1{
@@ -26,18 +26,17 @@ body{
 }
 .imagem{
     width: 70px;
-
 }
 footer{
     display: flex;
-    height: 3rem;
     align-items: center;
     justify-content:space-around;
+    height: 10vh;
 }
 
 #filtro{
-    width: 62px;
-    margin-bottom: 45px;
+    width: 80px;
+    margin-bottom: 20%;
 }
 
 .itens{
