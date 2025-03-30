@@ -1,6 +1,6 @@
-#filtro{
-    border: solid red;
-
+*{
+    margin:0;
+    padding: 0;
 }
 
 body{
@@ -19,23 +19,28 @@ body{
     font-weight: bold;
     height: 90vh;
     width: 100%;
+    gap: 1.5rem;
 }
+#h1{
+    font-weight: lighter;
+}
+.imagem{
+    width: 70px;
 
+}
 footer{
-    border: solid red;
     display: flex;
-  
+    height: 3rem;
     align-items: center;
     justify-content:space-around;
-
-    
-
 }
 
 #filtro{
     width: 62px;
+    margin-bottom: 45px;
 }
 
 .itens{
-    width: 30.89px;
+    width: 30px;
+    height: 30px;
 }
