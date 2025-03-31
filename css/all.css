@@ -8,7 +8,8 @@
 }
 
 /* Ajustes no HTML e Body */
-html, body {
+html,
+body {
     height: 100%;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -19,7 +20,8 @@ html, body {
 }
 
 /* Remover estilos de listas */
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -43,7 +45,9 @@ button {
 }
 
 /* Remover estilos padrão de inputs */
-input, textarea, select {
+input,
+textarea,
+select {
     font-family: inherit;
     font-size: inherit;
     border: none;
