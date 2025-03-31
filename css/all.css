@@ -1,5 +1,51 @@
+/* Reset CSS Global para todos os arquivos HTML */
+
+/* Remove espaçamentos padrão */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Ajustes no HTML e Body */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+/* Remover estilos de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset para botões */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Remover estilos padrão de inputs */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
 }
