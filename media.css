@@ -1,0 +1,76 @@
+/* Arquivos para responsividade básica */
+
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Remover estilos padrão de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Links sem sublinhado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Telas pequenas: smartphones (até 600px) */
+@media screen and (max-width: 600px) {
+
+    /* Estilos gerais para telas pequenas */
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+
+/* Telas médias: tablets e pequenos laptops (601px a 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* Estilos gerais para telas médias */
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        padding: 20px;
+    }
+}
+
+/* Telas grandes: desktops e monitores grandes (1025px ou mais) */
+@media screen and (min-width: 1025px) {
+
+    /* Estilos gerais para telas grandes */
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        padding: 30px;
+    }
+}
