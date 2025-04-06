@@ -7,3 +7,25 @@ header{
     width: 390px;
     height: 83px;
 }
+
+.imagens{
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    background-color: #FB6F92;
+}
+
+#filtro {
+    width: 80px;
+    margin-bottom: 20%;
+}
+
+.itens {
+    width: 30px;
+    height: 30px;
+}
